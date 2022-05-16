@@ -1,7 +1,8 @@
-import React from "react";
+import React ,{useState} from "react";
 const Faqs =()=>{
 const questions=[{question:"lorem?",answer:"jscc wslii wshcd ieedc jcfwd wcclo edkkec nojc"},{question:"hdv ldvn dlsvn",answer:"dvcl dsv sxdvdxv dv d;mjm peocd ecde"}]
-
+const [show, setShow] = useState(false);
+console.log(show)
 return(
     <>
     <div className="header">
@@ -10,12 +11,15 @@ return(
     <hr></hr>
     </div>
     
+    
     {  questions.map((element, index) => (
     <><div className="question">
-            <h2>{element.question}</h2>
+            <h2>{element.question}</h2><p onClick={()=>{setShow(true)}}>+</p>
         </div><div>
-<p>{element.answer}</p>
+        {show &&<p>{element.answer}</p>} 
+<hr></hr>
             </div></>
+            
         ))}
     </>
 )
