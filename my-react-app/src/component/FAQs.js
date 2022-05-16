@@ -9,12 +9,17 @@ return(
     <h3>Feel free to send us your qustions or comments below</h3>
     <hr></hr>
     </div>
-    <div className="question">
-       
-    </div>
     
+    {  questions.map((element, index) => (
+    <><div className="question">
+            <h2>{element.question}</h2>
+        </div><div>
+<p>{element.answer}</p>
+            </div></>
+        ))}
     </>
 )
 
 
 }
+export default Faqs;

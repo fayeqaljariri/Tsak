@@ -1,14 +1,14 @@
 import React  from "react";
-import { Link}  from "react-router-dom";
+import {Link}  from "react-router-dom";
 const Navigation = () => {
   return (
     <>
       <div className="NavBar">
-        <>
-          <Link className="Link" to="/Home">
-            Home
-          </Link>
-          <Link className="Link" to="/Order">
+         
+          <Link className="Link" to="/FAQs">
+          FAQs
+          </Link> 
+          {/* <Link className="Link" to="/Order">
             Order
           </Link>
           <Link className="Link" to="/Leaderboards">
@@ -19,9 +19,9 @@ const Navigation = () => {
           </Link>
           <Link className="Link" to="/FAQs">
           FAQs
-          </Link>
+          </Link> */}
           <button className="logout">Logout</button>
-        </>
+        
       </div>
     </>
   );
