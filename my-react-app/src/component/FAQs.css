@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+    display: inline-block;
+}
+.question{
+    text-align: start;
+    margin-left: 20%;
+    font-size: small;
+    /* display: inline; */
+    /* justify-content: space-between ; */
+    /* display: grid;
+   grid-template-columns: auto auto ; */
+}
+hr{
+    margin-left:20%;
+    margin-right: 17%;
+}
+.show{
+    text-align:start ;
+
+/* width: 50%; float: right */
+float: right;
+width: 22%;
+font-weight: bold;
+
+
+}h2{
+    display: inline;
+
+    
+}
+.answer{
+    margin-left: 20%;
+    font-size: larger;
+    text-align: start;
+
+}
