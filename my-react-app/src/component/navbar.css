@@ -1,4 +1,4 @@
-.NavBar{
+/* .NavBar{
     border-bottom: 1px solid rgb(160, 160, 160);
   padding: 30px;
   color: rgb(83, 83, 83);
@@ -7,13 +7,42 @@
   font-family: "inter";
   justify-content: right;
   align-items: center;
+  
 }
-
+link{
+    float: right;
+}
+ */
 .logout{
-    box-sizing: border-box;
+ box-sizing: border-box;
 width: 112px;
 height: 38px;
 background: #F1BA19;
 border: 1px solid #000000;
 border-radius: 5px;
+text-align: center;
+float: right;
+/* position: relative; */
+ margin-top: 5px;
+ margin-right: 10%;
+} 
+ 
+.topnav {
+    background-color: rgb(240, 235, 235);
+    overflow: hidden;
 }
+
+/* Style the links inside the navigation bar */
+.topnav a  {
+  float: right;
+  color: #0a0a0a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.logo{
+margin-right: 20%;
+}
+
