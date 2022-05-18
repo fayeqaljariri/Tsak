@@ -1,53 +1,6 @@
 h1{
-    color: blue;
+    color: #0F71BA;
     display: inline-block;
-}
-.question{
-    text-align: start;
-    margin-left: 20%;
-    font-size: small;
-    /* display: inline; */
-    /* justify-content: space-between ; */
-    /* display: grid;
-   grid-template-columns: auto auto ; */
-}
-hr{
-    margin-left:20%;
-    margin-right: 17%;
-}
-.show{
-    text-align:start ;
-
-/* width: 50%; float: right */
-float: right;
-width: 22%;
-font-weight: bold;
-
-
-}h2{
-    display: inline;
-
-    
-}
-.answer{
-    margin-left: 20%;
-    font-size: larger;
-    text-align: start;
-
-}
-/* .head{
-    width: 482px;
-    margin-top: 148px;
-    margin-bottom: 124px;
-    /* margin-right: 486px; */
-    /* margin-left: 472px; */
-/* } */ */
-h3{
-    margin-top: 0px;
-    width: 386px;
-    height: 30px;
-    margin-right: 525px;
-    size: 14px;
 }
 h1{
     height: 60px;
@@ -66,13 +19,13 @@ Font-style: Bold;
 Font-size: 36px;
 Line-height: 60px;
 Line-height: 138%;
-align-content: Center;
 Vertical-align: Top;
 letter-spacing: -2.5%;
 margin-top: 39px;
 margin-bottom: 0%;
+text-align: center;
 }
-p{
+.smallheader{
 
     line-height: 30px;
     width: 368px;
@@ -89,3 +42,53 @@ margin-right: 547px;
 margin-bottom: 0px;
 margin: auto;
 }
+.accordion-button::after {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Plus_symbol.svg") !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Plus_symbol.svg") !important;
+    transform: rotate(45deg) !important ;
+    background-color: white !important;
+  }
+  .accordion{
+border: 0px !important;
+width: 80% !important;
+margin: auto;
+  }
+ .accordion-button {
+    Font-style: Bold !important;
+    Font-size: 18px !important;
+    Line-height: 22px !important;
+    Line-height: 120% !important;
+    vertical-align: Center !important;
+    color: #111827 !important;
+    background-color: white !important;
+
+ }
+
+  .accordion-button:active {
+      border-color: white !important;
+      border-style: none;
+  }
+  .accordion-button:focus{
+    box-shadow:none;
+  }
+  .accordion-item{
+      border-right: 1px solid white !important;
+      border-left: 1px solid white !important;
+
+  }
+  .AccordionBody {
+    font-family: "Inter" !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    align-items: left !important;
+    text-align: left;
+    color: rgba(60, 60, 67, 0.85);
+    padding: 2rem 3rem !important;
+  
+  
+  }
+  .head{
+      text-align: center;
+  }

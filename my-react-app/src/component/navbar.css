@@ -1,18 +1,3 @@
-/* .NavBar{
-    border-bottom: 1px solid rgb(160, 160, 160);
-  padding: 30px;
-  color: rgb(83, 83, 83);
-  background-color: rgba(160, 160, 160, 0.1);
-  font-weight: 700;
-  font-family: "inter";
-  justify-content: right;
-  align-items: center;
-  
-}
-link{
-    float: right;
-}
- */
 .logout{
  box-sizing: border-box;
 width: 112px;
@@ -22,29 +7,12 @@ border: 1px solid #000000;
 border-radius: 5px;
 text-align: center;
 float: right;
-/* position: absolute; */
-/* margin-top: 35px; */
-margin-left: 53.31px;
+margin-left: 10px;
 bottom:  11px;
 left: 92px;
 
 }
 
-/* .topnav {
-    background-color: rgb(240, 235, 235);
-    overflow: hidden;
-} */
-
-/* Style the links inside the navigation bar */
-/* .topnav a  {
-  float: right;
-  color: #0a0a0a;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  
-} */
 .logo{
   height: 42px;
   width: 310px;
@@ -64,16 +32,15 @@ nav{
   text-decoration: none;
   align-items: center;
   margin-right: 73.57px;
-  /* width: 1330px; */
   margin-left: 62.54px;
   height: 17px;
 
 }
 .Link{
    height: 17px;
-  /* margin: 52px;  */
   text-decoration: none;
-  size: 5px;
+  font-size: 14px;
+  color: #000000;
 }
 .header{
   justify-content: center;
