@@ -3,9 +3,7 @@ import  "./FAQs.css";
 const Faqs =()=>{
 const questions=[{question:"lorem?",answer:"jscc wslii wshcd ieedc jcfwd wcclo edkkec nojc"},{question:"hdv ldvn dlsvn",answer:"dvcl dsv sxdvdxv dv d;mjm peocd ecde"}]
 const [show, setShow] = useState(false);
-
 const [show2, setShow2] = useState(false);
-
 const [show3, setShow3] = useState(false);
 const [show4, setShow4] = useState(false);
 const [show5, setShow5] = useState(false);
@@ -15,8 +13,10 @@ return(
     <>
      
     <div className="header">
-    <h1>Frequently Asked Questions</h1>
-    <h3>Feel free to send us your qustions or comments below</h3>
+        <div className="head">
+    <h1 >Frequently Asked Questions</h1>
+    <p className="smallheader">Feel free to send us your qustions or comments below</p>
+    </div>
     <br></br>
     <br></br>
     <br></br>

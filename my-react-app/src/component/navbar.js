@@ -4,8 +4,10 @@ import "./navbar.css"
 const Navigation = () => {
   return (
     <>
-    <div class="topnav">
-    <button className="logout">Logout</button>
+    <div className="header">
+    <nav >
+    <button className="logout">login</button>
+    
     <Link className="Link" to="/FAQs">
           FAQs
           </Link> 
@@ -22,8 +24,10 @@ const Navigation = () => {
           <Link className="Link" to="/Home">
            Home
           </Link>
+          
           <img className="logo" src="\Twenteefore - Logo 2 (2).png"></img>
-         
+          </nav>
+
 </div>
       {/* <div className="NavBar">
       

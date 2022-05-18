@@ -22,18 +22,21 @@ border: 1px solid #000000;
 border-radius: 5px;
 text-align: center;
 float: right;
-/* position: relative; */
- margin-top: 5px;
- margin-right: 10%;
-} 
- 
-.topnav {
-    background-color: rgb(240, 235, 235);
-    overflow: hidden;
+/* position: absolute; */
+/* margin-top: 35px; */
+margin-left: 53.31px;
+bottom:  11px;
+left: 92px;
+
 }
 
+/* .topnav {
+    background-color: rgb(240, 235, 235);
+    overflow: hidden;
+} */
+
 /* Style the links inside the navigation bar */
-.topnav a  {
+/* .topnav a  {
   float: right;
   color: #0a0a0a;
   text-align: center;
@@ -41,8 +44,37 @@ float: right;
   text-decoration: none;
   font-size: 17px;
   
-}
+} */
 .logo{
-margin-right: 20%;
-}
+  height: 42px;
+  width: 310px;
+  left: 74px;
+  top: 25px;
+  border-radius: 0px;
+  margin-right: 213.267px;
+  margin-bottom: 25px;
+  }
 
+nav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 36.79px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  margin-right: 73.57px;
+  /* width: 1330px; */
+  margin-left: 62.54px;
+  height: 17px;
+
+}
+.Link{
+   height: 17px;
+  /* margin: 52px;  */
+  text-decoration: none;
+  size: 5px;
+}
+.header{
+  justify-content: center;
+}
