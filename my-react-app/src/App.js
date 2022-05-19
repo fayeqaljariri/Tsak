@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import ReactDOM from "react-dom";
 import { Route, Routes } from "react-router-dom";
-import Navigation from './component/navbar';
-import Faqs from "./component/FAQs"
+import Navigation from "./component/Navbar/navbar"
+import Faqs from "./pages/FAQ/FAQs"
 function App() {
   return (
     <div className="App">
