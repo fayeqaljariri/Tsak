@@ -1,0 +1,47 @@
+.logout{
+ box-sizing: border-box;
+width: 112px;
+height: 38px;
+background: #F1BA19;
+border: 1px solid #000000;
+border-radius: 5px;
+text-align: center;
+float: right;
+margin-left: 10px;
+bottom:  11px;
+left: 92px;
+
+}
+
+.logo{
+  height: 42px;
+  width: 310px;
+  left: 74px;
+  top: 25px;
+  border-radius: 0px;
+  margin-right: 213.267px;
+  margin-bottom: 25px;
+  }
+
+nav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 36.79px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  margin-right: 73.57px;
+  margin-left: 62.54px;
+  height: 17px;
+
+}
+.Link{
+   height: 17px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+}
+.header{
+  justify-content: center;
+}
