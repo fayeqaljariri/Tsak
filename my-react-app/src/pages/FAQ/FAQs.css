@@ -1,0 +1,45 @@
+h1{
+    color: #0F71BA;
+    display: inline-block;
+}
+h1{
+left: 472px;
+top: 148px;
+border-radius: nullpx;
+font-family: Inter;
+size: 36px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.025em;
+box-align: center;
+Font-family: Inter;
+Font-style: Bold;
+Font-size: 36px;
+Line-height: 60px;
+Line-height: 138%;
+Vertical-align: Top;
+letter-spacing: -2.5%;
+margin-top: 39px;
+margin-bottom: 0%;
+text-align: center;
+}
+.smallheader{
+
+    line-height: 30px;
+    width: 368px;
+   font-size: 14px;
+    margin-left: 510px;
+font-style: Regular;
+font-size:  14px;
+line-height: 30px;
+line-height: 177%;
+align-content:left;
+vertical-align:  Top;
+margin-top: 0px;
+margin-right: 547px;
+margin-bottom: 0px;
+margin: auto;
+}
+  .head{
+      text-align: center;
+  }
