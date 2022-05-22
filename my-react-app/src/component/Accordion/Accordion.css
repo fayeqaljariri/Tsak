@@ -1,3 +1,4 @@
+
 .accordion-button::after {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Plus_symbol.svg") !important;
   }
@@ -6,10 +7,13 @@
     transform: rotate(45deg) !important ;
     background-color: white !important;
   }
+  
+
   .accordion{
 border: 0px !important;
 width: 80% !important;
 margin: auto;
+max-width: 1000px;
   }
  .accordion-button {
     Font-style: Bold !important;
@@ -45,3 +49,4 @@ margin: auto;
   
   
   }
+ 
