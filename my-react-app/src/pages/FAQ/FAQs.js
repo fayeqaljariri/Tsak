@@ -15,7 +15,7 @@ return(
     <br></br>
     <br></br>
     <br></br>
-    <Accordion></Accordion>
+    <Accordion/>
     </div>
  
     
