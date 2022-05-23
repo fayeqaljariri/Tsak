@@ -1,0 +1,128 @@
+
+.logout {
+  box-sizing: border-box;
+  width: 112px;
+  height: 38px;
+  background: #f1ba19;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  float: right;
+}
+.Link {
+  height: 17px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #080808;
+}
+nav {
+  background-color: var(--dark);
+  color: var(--light);
+  border-bottom: 3px solid var(--primary);
+}
+.navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.navbrand {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: none;
+  justify-content: flex-end;
+}
+
+.menu a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 90px;
+}
+
+.menu a:hover {
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
+.hamburger {
+  display: block;
+  user-select: none;
+  appearance: none;
+
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+
+  background-color: black;
+  border-radius: 6px;
+
+  transform-origin: 0 0;
+  transition: 0.4s;
+}
+
+.navdropdown {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 100vw;
+  height: 100%;
+  padding: 10px 0;
+  background-color: var(--primary);
+}
+.navdropdown a {
+  padding: 8px 16px;
+  margin: 0 16px;
+
+  text-decoration: none;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 90px;
+}
+.navdropdown a:hover {
+  color: var(--primary);
+  background-color: var(--dark);
+}
+
+@media (min-width: 1050px) {
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+
+  .nav-dropdown {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  .logout {
+    margin-left: auto;
+  }
+}
+@media (max-width: 552px) {
+  img {
+    width: 250px;
+  }
+}
